@@ -151,6 +151,10 @@ section {
 }
 .info--content .row {
   text-align: center;
+  box-shadow: 5px 5px 5px 0 var(--color-gray);
+  padding: 12px;
+  border-radius: 5px;
+  border:.5px solid  var(--color-gray);
 }
 .info--content .row .row-img {
   cursor: pointer;
