@@ -189,11 +189,17 @@ section {
   gap: 2rem;
 }
 
-.wisata .wisata--img img {
+.wisata .wisata--img .img {
   width: 350px;
   height: 520px;
   object-fit: cover;
   border-radius: 10px;
+  transition: all .5s ease;
+  outline: none;
+
+}
+.wisata--img .img:hover {
+  transform: translateX(8px);
 }
 
 .wisata .wisata--text h5 {
