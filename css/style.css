@@ -86,21 +86,30 @@ header .header--right .menu {
 }
 
 /* Section Hero */
-section {
+.info, .wisata, .tour, .culture .newsletter {
   padding: 70px 17% 60px;
   color: var(--text-white);
 }
-.hero {
+
+section.hero {
+  padding-top: 70px;
   position: relative;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
   background-image: url(/img/hro.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+}
+.hero::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(0deg,rgba(1,1,3,1)3%,rgb(61, 28, 46)25%); */
+  background: linear-gradient(0deg ,rgba(9,9,9, 1)10%,rgb(255, 255, 255, 0)40%);
 }
 
 .hero--text {
