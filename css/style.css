@@ -116,9 +116,6 @@ section.hero {
   color: var(--text-white);
 }
 
-.hero--text h5 {
-  font-size: 1.2rem;
-}
 
 .hero--text h1 {
   font-size: 3rem;
