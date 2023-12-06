@@ -1,19 +1,4 @@
 /* Responsif Breakpoin */
-/* Laptop */
-@media (max-width: 1200px) {
-    header {
-      padding: 18px 8%;
-    }
-    section {
-      padding: 50px 8% 40px;
-    }
-  }
-  @media (max-width: 950px) {
-    .wisata {
-      gap: 1rem;
-    }
-  }
-  
   /* Tablet */
   @media (max-width: 850px) {
     #menu {
@@ -48,6 +33,10 @@
     .tour--content{
       gap: 0;
     }
+    .wisata {
+      flex-direction:column ;
+      justify-content:center ;
+    }
   
   }
   
@@ -58,6 +47,11 @@
   
   .tour--content {
     justify-content: center;
+  }
+
+  .tour--box h6, .tour--box h4 {
+    right: 50px;
+    background: transparent ;
   }
   }
   /* Mobile */
@@ -79,13 +73,31 @@
     display: flex;
     flex-direction: column;
   }
+  .wisata .wisata--img .img {
+    width: 280px;
+  height: 380px;
+  }
   }
   
   @media (max-width: 420px) {
+    .hero {
+      padding-top: 0;
+      font-size: 80%;
+    }
+    .hero-text {
+      padding: 0;
+    }
+    .header--right .follow{
+      display: none;
+    }
     .wisata .wisata--img img {
       align-items: center;
       width: 300px;
       height: 480px;
+    }
+    .btn {
+      background-color : orange;
+      z-index: 1;
     }
   }
   
