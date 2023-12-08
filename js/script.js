@@ -1,3 +1,4 @@
+// nav
 const menu = document.getElementById("menu");
 const navbar = document.querySelector(".navbar");
 
